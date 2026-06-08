@@ -1,0 +1,2 @@
+Educational fictional case for physiotherapy learning and OSCE-style practice.
+Do not use for real patient care decisions.

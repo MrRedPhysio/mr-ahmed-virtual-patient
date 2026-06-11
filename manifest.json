@@ -1,35 +1,15 @@
 {
-  "name": "Mr Ahmed OSCE Virtual Patient",
-  "short_name": "Ahmed OSCE",
-  "description": "Professional OSCE-style virtual patient simulation for physiotherapy education.",
+  "name": "Mr Ahmed Virtual Patient",
+  "short_name": "Mr Ahmed",
+  "description": "OSCE-style virtual patient simulation for physiotherapy students.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
   "orientation": "portrait-primary",
-  "background_color": "#f5f7fa",
-  "theme_color": "#1a5276",
-  "categories": [
-    "education",
-    "medical"
-  ],
   "icons": [
-    {
-      "src": "assets/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "assets/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "assets/icon-maskable-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }

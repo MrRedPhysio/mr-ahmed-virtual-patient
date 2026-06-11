@@ -569,10 +569,15 @@ header p { font-size: 1.1em; opacity: 0.9; }
 </div>
 
 <div class="osce-panel">
-  <h2>👩‍🏫 Lecturer / Admin Mode</h2>
+   <h2>👩‍🏫 Lecturer / Admin Mode</h2>
   <p style="color:#666;margin-bottom:12px;">Use this during teaching to reveal case answers, marking prompts and scenario guidance.</p>
-  <button type="button" class="btn btn-accent" onclick="toggleAdminMode()">Toggle Lecturer Mode</button>
-  <div id="adminModeBox" class="admin-box">
+
+  <details style="background:#f4f6f7;border:2px dashed #1a5276;border-radius:12px;padding:16px;margin-top:14px;">
+    <summary style="cursor:pointer;font-weight:700;color:#1a5276;font-size:1.1em;">
+      Click here to open Lecturer Mode
+    </summary>
+
+    <div style="margin-top:14px;">
     <h3 style="color:var(--primary);margin-bottom:8px;">Lecturer Notes</h3>
     <ul style="margin-left:20px;line-height:1.6;">
       <li><strong>Core safety issue:</strong> second-floor flat and 24 stairs are unsafe without OT/housing plan.</li>

@@ -196,6 +196,21 @@ header p { font-size: 1.1em; opacity: 0.9; }
     };
   }
 })();
+  function toggleAdminMode() {
+  const box = document.getElementById('adminModeBox');
+
+  if (!box) {
+    alert('Lecturer Mode box not found');
+    return;
+  }
+
+  if (box.style.display === 'block') {
+    box.style.display = 'none';
+  } else {
+    box.style.display = 'block';
+    box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
 </script>
 
 
